@@ -48,6 +48,10 @@
                 <groupId>org.evosuite.plugins</groupId>
                 <artifactId>evosuite-maven-plugin</artifactId>
                 <version>1.0.6</version>
+
+                <configuration>
+                    <extraArgs> -Duse_separate_classloader=false </extraArgs>
+                </configuration>
             </plugin>
 
             <plugin>
