@@ -1,5 +1,4 @@
 
-
 jdk: openjdk8
 
 name: Coveralls GitHub Action
